@@ -4,7 +4,8 @@ I'm looking to add Go to my development toolkit. My initial goal in learning Go 
 
 ## Resources
 
-[Learning Project](https://github.com/users/craigmcampbell/projects/4/views/1)
+- [100 Days Coding Log](https://github.com/craigmcampbell/100-days-log/blob/master/R1.md)
+- [Learning Project](https://github.com/users/craigmcampbell/projects/4/views/1)
 
 ### Tutorials
 - [Official Go Tutorials](https://go.dev/doc/tutorial/)
