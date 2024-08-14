@@ -3,13 +3,13 @@ module cc.tech/main
 go 1.22.5
 
 require (
-	cc.tech/router v0.0.0-00010101000000-000000000000
+	cc.tech/controllers v0.0.0-00010101000000-000000000000
 	github.com/gin-gonic/gin v1.10.0
 )
 
 require (
 	cc.tech/models v0.0.0-00010101000000-000000000000 // indirect
-	cc.tech/users v0.0.0-00010101000000-000000000000 // indirect
+	cc.tech/services v0.0.0-00010101000000-000000000000 // indirect
 	github.com/bytedance/sonic v1.11.6 // indirect
 	github.com/bytedance/sonic/loader v0.1.1 // indirect
 	github.com/cloudwego/base64x v0.1.4 // indirect
@@ -38,8 +38,8 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace cc.tech/router => ./router
-
-replace cc.tech/users => ./users
-
 replace cc.tech/models => ./models
+
+replace cc.tech/controllers => ./controllers
+
+replace cc.tech/services => ./services

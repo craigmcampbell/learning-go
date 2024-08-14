@@ -2,12 +2,10 @@ package main
 
 import (
 	"os"
-
-	"cc.tech/router"
 )
 
 func main() {
-	router := router.SetupRouter()
+	router := SetupRouter()
 
 	port := os.Getenv("PORT")
 	if port == "" {
