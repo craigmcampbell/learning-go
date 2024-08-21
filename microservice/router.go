@@ -16,9 +16,6 @@ func SetupRouter() *gin.Engine {
 		c.Status(http.StatusNoContent)
 	})
 
-	// router.GET("/users", users.GetUsers)
-	// router.GET("/users/:id", users.GetUserById)
-
 	controllers.SetupUserRoutes(router)
 
 	return router
